@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaise Antony Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+        .card { transition: transform 0.4s ease, box-shadow 0.4s ease; }
+        .card:hover { transform: scale(1.05); box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2); }
+        .fade-in { animation: fadeIn 1s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="text-center mb-12 text-white fade-in">
+        <h1 class="text-4xl font-bold mb-2">Blaise Antony B</h1>
+        <p class="text-lg">Aspiring Full Stack Developer</p>
+        <p>📍 Chennai, Tamil Nadu, India</p>
+        <p>📞 +91 95006 15276 | 📧 blaiseantony2001@gmail.com</p>
+    </div>
+
+    <section class="mb-12 fade-in">
+        <h2 class="text-3xl font-semibold mb-6 text-white">Skills</h2>
+        <div class="grid grid-cols-2 gap-6">
+            <div class="p-6 bg-white rounded-lg shadow-lg card">Frontend: HTML, CSS, JavaScript, ReactJS</div>
+            <div class="p-6 bg-white rounded-lg shadow-lg card">Backend: Java (Spring Boot), Python</div>
+            <div class="p-6 bg-white rounded-lg shadow-lg card">Database: MySQL, MongoDB</div>
+            <div class="p-6 bg-white rounded-lg shadow-lg card">Tools: Postman, Git, Agile & Scrum</div>
+            <div class="p-6 bg-white rounded-lg shadow-lg card">Soft Skills: Fast Learner, Team Player, Can Work Under Pressure</div>
+        </div>
+    </section>
+
+    <section class="mb-12 fade-in">
+        <h2 class="text-3xl font-semibold mb-6 text-white">Projects</h2>
+        <div class="p-6 bg-white rounded-lg shadow-lg card mb-6">
+            <h3 class="font-bold text-lg">Full-Stack Movie Review Web Application</h3>
+            <p>ReactJS | Java Spring Boot | MongoDB | Postman</p>
+            <p>Developed a movie review platform with REST APIs, interactive UI, and MongoDB integration.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-lg card">
+            <h3 class="font-bold text-lg">Cloth Pattern Recognition using ML</h3>
+            <p>Python | CNN/SVM Models</p>
+            <p>Built ML models to recognize cloth patterns using CNN and SVM with cross-validation.</p>
+        </div>
+    </section>
+
+    <section class="mb-12 fade-in">
+        <h2 class="text-3xl font-semibold mb-6 text-white">Education</h2>
+        <div class="p-6 bg-white rounded-lg shadow-lg card mb-6">B.Tech in IT - Saveetha School of Engineering, Chennai - 80%</div>
+        <div class="p-6 bg-white rounded-lg shadow-lg card mb-6">Higher Secondary - Ideal Higher Secondary School, Anthiyur - 82%</div>
+        <div class="p-6 bg-white rounded-lg shadow-lg card">SSLC - Sri Gnanananda Matric Hr. Sec. School, Tirukkoyilur - 95%</div>
+    </section>
+
+    <section class="mb-12 fade-in">
+        <h2 class="text-3xl font-semibold mb-6 text-white">Certifications</h2>
+        <ul class="list-disc ml-8 text-white">
+            <li>Full Stack Development in Java – FITA Academy</li>
+            <li>Microsoft Power BI – Atos</li>
+            <li>Front-End Development (HTML & CSS) – Great Learning</li>
+        </ul>
+    </section>
+
+    <footer class="text-center mt-12 text-white">
+        <p>© 2025 Blaise Antony. All rights reserved.</p>
+    </footer>
+</body>
+</html>
